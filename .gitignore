@@ -1,0 +1,48 @@
+Here is a better implementation for the .gitignore file:
+
+# .NET Core
+ bin/
+ obj/
+ *.csproj.user
+ *.user
+
+# Cache files
+ *.vs/
+ *.vscode/
+ .idea/
+ .netlify/
+ .nuxt/
+
+# SQLite database
+ OCPPDatabase.sqlite
+ OCPPDatabase.sqlite-journal
+
+# IDE and editor settings
+ *.iml
+ .vs/
+ .idea/
+ ..netbeans/
+ visualstudio.db
+
+# NuGet
+ *.nupkg
+ packages/
+
+# OS generated files
+ ehthumbs.db
+ Thumbs.db
+
+# Logs
+ logs/
+ App_Data/
+
+# Runtime data
+ /tmp
+ /repositories/
+ /exported/
+ /builds/
+ /ssh/
+ /local-history
+
+# Miscellaneous
+ .gitignore
